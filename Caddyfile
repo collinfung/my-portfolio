@@ -1,0 +1,8 @@
+:2015 {
+    root * "c:/Users/Collin Fung/Desktop/my-portfolio/my-portfolio/build"
+    file_server
+
+    handle /api/* {
+        reverse_proxy localhost:5050
+    }
+}
