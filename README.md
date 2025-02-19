@@ -132,13 +132,3 @@ sudo systemctl restart caddy
 2. **Enable HTTPS automatically**
 3. Verify deployment at **[https://collinfung.dev](https://collinfung.dev)**
 
-
-### **Troubleshooting AWS Deployment Issues**
-
-| Issue | Cause | Solution |
-|------------------|---------------------------------|--------------------------------|
-| **Site not loading** | Security Group blocking HTTP | Open ports 80 and 443 in AWS |
-| **Caddy errors on start** | Incorrect permissions | Run `sudo chown -R caddy:caddy /usr/share/caddy` |
-
-
-**Project 1 Deliverables:** **[https://collinfung.dev](https://collinfung.dev)** 
